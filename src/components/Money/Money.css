@@ -1,0 +1,7 @@
+.Money {
+  margin-left: 6px;
+}
+
+.Money.negative {
+  color: red;
+}

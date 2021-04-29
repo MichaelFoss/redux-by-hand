@@ -1,0 +1,20 @@
+/**
+ * - Add Redux
+ * - Add Redux DevTools
+ */
+import React from 'react';
+import ReactDOM from 'react-dom';
+import '../index.css';
+
+import App from '../components/App/3-To-Redux';
+
+const main = () => {
+  ReactDOM.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+    document.getElementById('root')
+  );
+};
+
+export default main;

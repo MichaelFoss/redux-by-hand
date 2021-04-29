@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.App .money {
+  margin-left: 6px;
+}
+
+.App .money.negative {
+  color: red;
+}
+
+.App button {
+  font-size: 20px;
+  padding: 6px 12px;
+  border-radius: 9999px;
+}
+
+.App button:not(:first-child) {
+  margin-left: 20px;
+}
